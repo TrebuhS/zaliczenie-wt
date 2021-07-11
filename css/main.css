@@ -1,0 +1,23 @@
+@import "shared.css";
+@import "home.css";
+@import "about.css";
+@import "skills.css";
+@import "process.css";
+@import "gallery.css";
+@import "video.css";
+@import "services.css";
+@import "quotes.css";
+@import "logos.css";
+@import "form.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Nunito sans";
+}

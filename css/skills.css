@@ -1,0 +1,62 @@
+.skills {
+    display: flex;
+}
+
+.skills .left {
+    background-color: #F7F9F9;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.skills .left h2 {
+    font-size: 30pt;
+    margin-bottom: 30px;
+}
+
+.skills .skill {
+    width: 100%;
+}
+
+.skills .skill .skill__caption {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.skills .skill .skill__caption p {
+    margin-right: 20px;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.skills .skill .skill__progress-wrapper {
+    width: 100%;
+    height: 3px;
+    background-color: lightgray;
+}
+
+.skills .skill .skill__progress {
+    height: 100%;
+    background-color: #0FC9C3;
+}
+
+.skills .right {
+    width: 50%;
+    background-image: url("../img/iphone.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 750px) {
+    .skills .right {
+        display: none;
+    }
+
+    .skills .left {
+        width: 100%;
+    }
+}

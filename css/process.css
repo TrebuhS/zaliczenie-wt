@@ -1,0 +1,48 @@
+.process {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    background-color: #0FC9C3;
+    color: white;
+}
+
+.process .single-process {
+    display: flex;
+}
+
+.process .single-process .single-process__img {
+    margin-right: 20px;
+}
+.process .single-process .single-process__counter {
+    font-weight: bold;
+}
+
+.process .single-process img {
+    height: 60px;
+}
+
+@media(max-width: 800px) {
+    .process {
+        flex-wrap: wrap;
+        padding: 80px;
+    }
+
+    .process .single-process {
+        margin: 20px 0;
+    }
+}
+
+
+@media(max-width: 600px) {
+    .process {
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .process .single-process {
+        width: 250px;
+        max-width: 100%;
+    }
+}

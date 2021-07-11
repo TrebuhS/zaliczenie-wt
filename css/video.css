@@ -1,0 +1,40 @@
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video__container {
+    width: 95%;
+    max-width: 1000px;
+    height: 100%;
+    position: relative;
+}
+
+.video__container video {
+    width: 100%;
+}
+
+.video .video__play {
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0FC9C3;
+    z-index: 1;
+}
+
+
+.video .video__play img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+}

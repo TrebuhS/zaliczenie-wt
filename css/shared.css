@@ -1,0 +1,25 @@
+.title-with-caption {
+    background-color: white;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-with-caption p {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button {
+    height: 54px;
+    width: 180px;
+    background-color: #0FC9C3;
+    border: none;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}

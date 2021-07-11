@@ -1,0 +1,32 @@
+.form {
+    background-color: #F7F9F9;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    width: 90%;
+}
+
+.form input, .form textarea {
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    font-family: "Nunito-sans", sans-serif;
+}
+
+.form__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form__row input {
+    width: 100%;
+}
+
+.form button {
+    align-self: center;
+    margin-top: 10px;
+}

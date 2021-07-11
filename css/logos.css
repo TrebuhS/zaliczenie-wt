@@ -1,0 +1,29 @@
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.logos img {
+    height: 50px;
+    margin: 10px 0;
+}
+
+.logos img:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+/*@media(max-width: 600px) {*/
+/*    .logos {*/
+/*        flex-direction: column;*/
+/*    }*/
+
+/*    .logos img {*/
+/*        margin: 30px 0;*/
+/*        width: 80%;*/
+/*        max-width: 200px;*/
+/*        height: auto;*/
+/*    }*/
+/*}*/
